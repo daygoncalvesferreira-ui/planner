@@ -1,0 +1,31 @@
+:root {
+  --bg: #F6F4FB; --surface: #FFFFFF; --ink: #1F1B2E; --ink-soft: #6B6680; --ink-faint: #A7A2B8; --line: #ECE8F4;
+  --accent: #D6457F; --accent-ink: #B8336A; --accent-wash: #FCE8F0; --good: #22A37F;
+  /* Cor de cada tipo de seção: ajuda a reconhecer as áreas sem ler */
+  --rose: #D6457F; --rose-w: #FCE8F0; --lilac: #7C6BF0; --lilac-w: #EEEBFF; --teal: #139C94; --teal-w: #E1F5F3;
+  --amber: #D98A1C; --amber-w: #FDF1DF; --blue: #3B82D6; --blue-w: #E6F0FB;
+  --shadow: 0 1px 2px rgba(31,27,46,.04), 0 6px 20px rgba(31,27,46,.06);
+  --a-eu:#9B7CF0; --a-saude:#22A37F; --a-autocuidado:#E57BA6; --a-casamento:#D6457F; --a-filha:#F08A5D;
+  --a-casa:#A08A6A; --a-trabalho:#3B82D6; --a-carreira:#6C63D9; --a-estudos:#139C94; --a-espiritual:#D9A21C; --a-financeiro:#2F9E6E;
+  --sans: 'Figtree', 'SF Pro Text', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --serif: var(--sans);
+  --r-sm: 12px; --r-md: 18px; --r-lg: 26px;
+  --nav-h: 66px; --pad: 18px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:#15131C; --surface:#1F1C29; --ink:#F3F1F8; --ink-soft:#A8A3BA; --ink-faint:#6A6580; --line:#2C2839;
+    --accent:#F06A9E; --accent-ink:#F58BB3; --accent-wash:#3A1F2D; --good:#3CC79C;
+    --rose:#F06A9E; --rose-w:#3A1F2D; --lilac:#A396FF; --lilac-w:#2A2645; --teal:#3CC7BE; --teal-w:#16302F;
+    --amber:#F2B24D; --amber-w:#3A2C17; --blue:#6FA8F0; --blue-w:#1A2A40;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg:#15131C; --surface:#1F1C29; --ink:#F3F1F8; --ink-soft:#A8A3BA; --ink-faint:#6A6580; --line:#2C2839;
+  --accent:#F06A9E; --accent-ink:#F58BB3; --accent-wash:#3A1F2D; --good:#3CC79C;
+  --rose:#F06A9E; --rose-w:#3A1F2D; --lilac:#A396FF; --lilac-w:#2A2645; --teal:#3CC7BE; --teal-w:#16302F;
+  --amber:#F2B24D; --amber-w:#3A2C17; --blue:#6FA8F0; --blue-w:#1A2A40;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25); color-scheme: dark;
+}
